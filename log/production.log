@@ -1,0 +1,135 @@
+# Logfile created on Thu Sep 24 04:13:27 +0800 2009
+
+Processing Admin::OrdersController#index (for 127.0.0.1 at 2009-09-24 04:13:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/orders"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_roles] rendered_or_redirected.
+Completed in 140ms (DB: 12) | 302 Found [http://localhost/admin/orders]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-24 04:13:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 4ms (DB: 1) | 302 Found [http://localhost/login]
+
+
+Processing TaxonsController#show (for 127.0.0.1 at 2009-09-24 04:14:59) [GET]
+  Parameters: {"action"=>"show", "id"=>["brands", "ruby"], "controller"=>"taxons"}
+Rendering template within layouts/application
+Rendering taxons/show
+Completed in 241ms (View: 43, DB: 23) | 200 OK [http://localhost/t/brands/ruby/]
+
+
+Processing TaxonsController#show (for 127.0.0.1 at 2009-09-24 04:15:03) [GET]
+  Parameters: {"action"=>"show", "id"=>["brands"], "controller"=>"taxons"}
+Rendering template within layouts/application
+Rendering taxons/show
+Completed in 89ms (View: 57, DB: 26) | 200 OK [http://localhost/t/brands/]
+
+
+Processing TaxonsController#show (for 127.0.0.1 at 2009-09-24 04:15:04) [GET]
+  Parameters: {"action"=>"show", "id"=>["categories"], "controller"=>"taxons"}
+Rendering template within layouts/application
+Rendering taxons/show
+Completed in 199ms (View: 163, DB: 29) | 200 OK [http://localhost/t/categories/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-09-24 04:15:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 92ms (View: 54, DB: 21) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-09-24 04:15:08) [GET]
+  Parameters: {"action"=>"show", "id"=>"apache-baseball-jersey", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 66ms (View: 47, DB: 14) | 200 OK [http://localhost/products/apache-baseball-jersey]
+
+
+Processing OrdersController#create (for 127.0.0.1 at 2009-09-24 04:15:09) [POST]
+  Parameters: {"action"=>"create", "authenticity_token"=>"pNL09U9pubOAHyKMO9nh2oe138s+e7mFOqIizGnvdKI=", "controller"=>"orders", "variants"=>{"1454996100"=>"1"}}
+Redirected to http://localhost:3000/orders/R025745044/edit
+Completed in 275ms (DB: 29) | 302 Found [http://localhost/orders]
+
+
+Processing OrdersController#edit (for 127.0.0.1 at 2009-09-24 04:15:09) [GET]
+  Parameters: {"action"=>"edit", "id"=>"R025745044", "controller"=>"orders"}
+Rendering template within layouts/application
+Rendering orders/edit
+Completed in 69ms (View: 49, DB: 12) | 200 OK [http://localhost/orders/R025745044/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-09-24 04:15:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 92ms (View: 57, DB: 22) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-09-24 04:15:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"ruby-on-rails-bag", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 51ms (View: 36, DB: 10) | 200 OK [http://localhost/products/ruby-on-rails-bag]
+
+
+Processing OrdersController#create (for 127.0.0.1 at 2009-09-24 04:15:16) [POST]
+  Parameters: {"action"=>"create", "authenticity_token"=>"pNL09U9pubOAHyKMO9nh2oe138s+e7mFOqIizGnvdKI=", "controller"=>"orders", "variants"=>{"504220342"=>"1"}}
+Redirected to http://localhost:3000/orders/R025745044/edit
+Completed in 44ms (DB: 11) | 302 Found [http://localhost/orders]
+
+
+Processing OrdersController#edit (for 127.0.0.1 at 2009-09-24 04:15:16) [GET]
+  Parameters: {"action"=>"edit", "id"=>"R025745044", "controller"=>"orders"}
+Rendering template within layouts/application
+Rendering orders/edit
+Completed in 70ms (View: 49, DB: 15) | 200 OK [http://localhost/orders/R025745044/edit]
+
+
+Processing CheckoutsController#edit (for 127.0.0.1 at 2009-09-24 04:15:18) [GET]
+  Parameters: {"order_id"=>"R025745044", "action"=>"edit", "controller"=>"checkouts"}
+Redirected to https://localhost/orders/R025745044/checkout/edit
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 4ms (DB: 1) | 302 Found [http://localhost/orders/R025745044/checkout/edit]
+
+
+Processing OrdersController#edit (for 127.0.0.1 at 2009-09-24 04:15:22) [GET]
+  Parameters: {"action"=>"edit", "id"=>"R025745044", "controller"=>"orders"}
+Rendering template within layouts/application
+Rendering orders/edit
+Completed in 69ms (View: 48, DB: 15) | 200 OK [http://localhost/orders/R025745044/edit]
+
+
+Processing OrdersController#edit (for 127.0.0.1 at 2009-09-24 04:15:24) [GET]
+  Parameters: {"action"=>"edit", "id"=>"R025745044", "controller"=>"orders"}
+Rendering template within layouts/application
+Rendering orders/edit
+Completed in 70ms (View: 48, DB: 15) | 200 OK [http://localhost/orders/R025745044/edit]
+
+
+Processing ContentController#show (for 127.0.0.1 at 2009-09-24 04:15:24) [GET]
+  Parameters: {"action"=>"show", "controller"=>"content", "path"=>["favicon.ico"]}
+Rendering /Users/AChien/Projects/人气美食/mall/eymall/public/404.html (404 Not Found)
+
+
+Processing OrdersController#update (for 127.0.0.1 at 2009-09-24 04:15:25) [PUT]
+  Parameters: {"order"=>{"line_items_attributes"=>{"0"=>{"quantity"=>"1", "id"=>"2119979195"}, "1"=>{"quantity"=>"1", "id"=>"2119979196"}}}, "action"=>"update", "_method"=>"put", "authenticity_token"=>"pNL09U9pubOAHyKMO9nh2oe138s+e7mFOqIizGnvdKI=", "id"=>"R025745044", "controller"=>"orders"}
+Redirected to http://localhost:3000/orders/R025745044/edit
+Completed in 39ms (DB: 12) | 302 Found [http://localhost/orders/R025745044]
+
+
+Processing OrdersController#edit (for 127.0.0.1 at 2009-09-24 04:15:25) [GET]
+  Parameters: {"action"=>"edit", "id"=>"R025745044", "controller"=>"orders"}
+Rendering template within layouts/application
+Rendering orders/edit
+Completed in 171ms (View: 49, DB: 15) | 200 OK [http://localhost/orders/R025745044/edit]
+
+
+Processing CheckoutsController#edit (for 127.0.0.1 at 2009-09-24 04:15:28) [GET]
+  Parameters: {"order_id"=>"R025745044", "action"=>"edit", "controller"=>"checkouts"}
+Redirected to https://localhost/orders/R025745044/checkout/edit
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 4ms (DB: 1) | 302 Found [http://localhost/orders/R025745044/checkout/edit]

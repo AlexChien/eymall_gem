@@ -1,5 +1,9 @@
 body {
-  background: #ffffff; }
+  background: #FFffff; }
+
+h1.logo a {
+  background: none;
+  padding-left: 10px; }
 
 /* :background #99CC99 */
 /* body.two-col div#wrapper

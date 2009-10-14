@@ -1,0 +1,524 @@
+--- 
+zh-CN: 
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: 所有邮件的副本发送到以下地址
+  abbreviation: 缩写
+  access_denied: "拒绝访问"
+  account: 帐户
+  account_updated: "帐户更新!"        
+  action: 动作
+  actions: 
+    cancel: 取消
+    create: 创建
+    destroy: 销毁
+    list: 列举
+    listing: 列表
+    new: 新建
+    update: 更新
+  activerecord: 
+    attributes: 
+      address: 
+        address1: 地址
+        address2: "地址 (续.)"
+        city: 城市
+        firstname: "姓"
+        lastname: "名"
+        phone: 手机号
+        zipcode: "邮编"
+      country: 
+        iso: ISO
+        iso3: ISO3
+        iso_name: "ISO 名称"
+        name: 名称
+        numcode: "ISO 区码"
+      creditcard: 
+        cc_type: 类型
+        month: 月份
+        number: 卡号
+        verification_value: "验证值"
+        year: 年份
+      inventory_unit: 
+        state: 国家
+      line_item: 
+        price: 价格
+        quantity: 数量
+      order: 
+        checkout_complete: "结算完成"
+        ip_address: "IP 地址"
+        item_total: "条目合计"
+        number: 订单号
+        ship_amount: "配送数量"
+        special_instructions: "特别指示"
+        state: 国家
+        tax_amount: "税额"
+        total: 总计
+      product: 
+        available_on: "可用"
+        description: 描述
+        master_price: "主要价格"
+        name: 名称
+        on_hand: "转交"
+        shipping_category: "配送类别"
+      property: 
+        name: 名称
+        presentation: 介绍
+      prototype: 
+        name: 名称
+      role: 
+        name: 名称
+      state: 
+        abbr: 缩写
+        name: 名称
+      taxon: 
+        name: 名称
+        permalink: 固定链接
+        position: 位置
+      taxonomy: 
+        name: 名称
+      user: 
+        email: 电子邮件
+      variant: 
+        depth: 深度
+        height: 高度
+        price: 价格
+        sku: 最小存货单位
+        weight: 重量
+        width: 宽度
+      zone: 
+        description: 描述
+        name: 名称
+    models: 
+      address: 
+        one: 地址
+        other: 其他地址
+      country: 
+        one: 国家
+        other: 其他国家
+      creditcard: 
+        one: "信用卡"
+        other: "其他信用卡"
+      creditcard_payment: 
+        one: "信用卡付款"
+        other: "其他信用卡付款"
+      creditcard_txn: 
+        one: "信用卡交易"
+        other: "其他信用卡交易"
+      inventory_unit: 
+        one: "库存单元"
+        other: "其他库存单元"
+      line_item: 
+        one: "条目"
+        other: "其他条目"
+      order: 
+        one: 订单
+        other: 其他订单
+      payment: 
+        one: 付款
+        other: 其他付款
+      product: 
+        one: 产品
+        other: 其他产品
+      property: 
+        one: 属性
+        other: 其他属性
+      prototype: 
+        one: 原型
+        other: 其他原型
+      role: 
+        one: 角色
+        other: 其他角色
+      shipping_category: 
+        one: "配送类别"
+        other: "其他配送类别"
+      state: 
+        one: 国家
+        other: 其他国家
+      taxon: 
+        one: 分类
+        other: 其它分类
+      taxonomy: 
+        one: 分类方法
+        other: 其他分类方法
+      user: 
+        one: 用户
+        other: 其他用户
+      variant: 
+        one: 不同版本
+        other: 其他不同版本
+      zone: 
+        one: 区域
+        other: 其他区域
+  add: Add
+  add_category: "新增类别"
+  add_country: "新增国家"
+  add_option_type: "新增选择类型"
+  add_option_types: "新增多个选择类型"
+  add_option_value: "新增选择值"
+  add_product_properties: "新增产品属性"
+  add_state: "新增国家"
+  add_to_cart: "添加到购物车"
+  add_zone: "新增区域"
+  address: 地质
+  address_information: "地址信息"
+  adjustment: 调整
+  administration: "星尚商城 :: 管理"
+  allow_backorders: "允许拖欠订单"
+  allow_ssl_to_be_used_when_in_developement_and_test_modes: 允许在开发和测试模式下使用SSL
+  allow_ssl_to_be_used_when_in_production_mode: 允许在作业模式下使用SSL         
+  already_registered: 是否已注册?
+  amount: 数量
+  are_you_sure: "您确定吗"
+  are_you_sure_category: "您是否确定要删除此类别?"
+  are_you_sure_delete: "您是否确定要删除此记录?"
+  are_you_sure_delete_image: "您是否确定要删除此图片?"
+  are_you_sure_option_type: "您是否确定要删除此选择类型?"
+  are_you_sure_you_want_to_capture: "您是否确定要抓取?"
+  assign_taxon: "指定分类"
+  assign_taxons: "指定分类群"
+  authorization_failure: "授权失败"
+  authorized: 合法
+  available_on: "可用的"
+  available_taxons: "可用分类"
+  back: 退后
+  back_to_store: "返回商城"
+  bill_address: "账单地址"
+  billing_address: "开票地址"
+  cancel: 取消
+  canceled: 已取消的
+  capture: 抓取
+  card_code: "卡区码"
+  card_number: "卡号"
+  cart: 购物车
+  categories: 多个种类
+  category: 种类
+  change: 切换
+  change_language: "切换语言"
+  charged: 充值
+  checkout: 结帐
+  city: 城市
+  comp_order: "确认订单"
+  comp_order_confirmation: "客户将停止充值，您是否确认完成此份订单?"
+  complete_list: "更多设置"
+  configuration: 配置
+  configuration_options: "配置选项"
+  configurations: 站点配置
+  confirm: 确认
+  confirm_password: "密码确认"
+  continue: 继续
+  continue_shopping: "继续购物"
+  copy_all_mails_to: 复制所有邮件给                                                                             
+  country: 国家
+  country_based: "根据国家"
+  create: 创建
+  create_a_new_account: "创建一个新帐户"
+  create_user_account: 创建用户帐户
+  created_successfully: "创建成功"
+  credit_card: "信用卡"
+  credit_card_capture_complete: "信用卡被抓取"
+  credit_card_payment: "信用卡付款"
+  creditcard: 信用卡
+  current: 当前
+  customer: 用户
+  date_range: "日期范围"
+  delete: 删除
+  depth: 深度
+  description: 描述
+  destroy: 销毁
+  display: 显示
+  edit: 编辑
+  editing_category: "编辑类别"
+  editing_option_type: "编辑选择类型"
+  editing_option_types: "编辑多个选择类型"
+  editing_product: "编辑产品"
+  editing_property: "编辑属性"
+  editing_prototype: "Editing Prototype"
+  editing_shipping_category: "编辑配送类别"
+  editing_shipping_method: "编辑配送方法"
+  editing_state: "Editing State"
+  editing_tax_category: "编辑税费类别"
+  editing_user: "编辑用户"   
+  editing_zone: "编辑区域"
+  email: 电子邮件
+  email_address: "电子邮件地址"
+  email_server_settings_description: "设置电子邮件服务器."
+  empty_cart: "空的购物车"
+  enable_mail_delivery: 邮件送达      
+  error: 错误
+  event: 事件
+  existing_customer: "已有客户"
+  expiration: "过期"
+  expiration_month: "过期月份"
+  expiration_year: "过期年份"
+  extension: 延期
+  extensions: 延期
+  filename: 文件名
+  final_confirmation: "最后确认"
+  first_name: "姓"
+  forgot_password: "忘记密码"
+  gateway: 网关
+  gateway_error: "网关错误"
+  gateway_setting_description: "选择一个支付网关并设置其配置."
+  general: "普通"
+  general_settings: "普通设置"
+  general_settings_description: "配置普通高级设置."
+  google_analytics: "Google Analytics"
+  google_analytics_active: "激活"
+  google_analytics_create: "新建 Google Analytics 账户"
+  google_analytics_id: "Analytics ID"
+  google_analytics_new: "新的 Google Analytics 账户"
+  google_analytics_setting_description: "管理 Google Analytics ID" 
+  guest_user_account: 客户结帐
+  height: 高度
+  hello_user: "用户好"
+  history: 历史
+  home: "首页"
+  image: 图像
+  images: 产品图片
+  in_progress: "处理中"
+  invalid_search: "无效的搜索标准."
+  inventory: 存货
+  inventory_adjustment: "存货调整"
+  inventory_setting_description: "库存配置，欠拨，零库存显示"
+  inventory_settings: "库存设置"
+  item: 条目
+  item_description: "条目描述"
+  item_total: "条目总计"
+  last_name: "名"
+  list: 列表
+  listing_categories: "分类列表"
+  listing_option_types: "选项类型列表"
+  listing_orders: "订单列表"
+  listing_reports: "报告列表"
+  listing_tax_categories: "税费类别列表"
+  listing_users: "用户列表"
+  locale_changed: "更改设置"
+  log_in: "登录"
+  logged_in_as: "身份登录"
+  logged_in_succesfully: "登录成功"
+  logged_out: "您已经成功注销." 
+  login_as_existing: "使用已有客户帐号登录" 
+  login_failed: "登录身份验证失败."    
+  login_name: 登录
+  logout: 注销  
+  mail_delivery_enabled: "邮件送达"
+  mail_delivery_not_enabled: "邮件无法送达"
+  mail_server_preferences: 邮件服务器偏好设置
+  mail_server_settings: "邮件服务器设置"
+  mark_shipped: "标记已送货"
+  master_price: "主要价格"
+  meta_description: "元属性"
+  meta_keywords: "元关键字"
+  metadata: "元数据"
+  month: "月份"
+  my_account: "我的账户"
+  my_orders: "我的订单"    
+  name: 名称
+  new: 新建
+  new_category: "新建类别"
+  new_credit_card_payment: "新建的信用卡支付"
+  new_customer: "新建客户"
+  new_image: "新建图片"
+  new_option_type: "新建选择类型"
+  new_option_value: "新建选择值"
+  new_product: "新建产品"
+  new_property: "新建属性"
+  new_prototype: "新建原型"
+  new_shipment: "新建送货单"
+  new_shipping_category: "新建送货种类"
+  new_shipping_method: "新建送货方法"
+  new_state: "新建国家"
+  new_tax_category: "新建税类别"
+  new_tax_rate: "新建税率"
+  new_taxonomy: "新建分类"
+  new_user: "新建用户"
+  new_variant: "新建变量"
+  new_zone: "新建区域"
+  next: 下一步
+  no_items_in_cart: ""
+  no_match_found: "未找到匹配项"
+  no_user_found: "没有发现该用户的电子邮件地址"
+  none: None
+  none_available: "无可用"
+  on_hand: "转交"
+  operation: 操作
+  option_Values: "选择值"
+  option_types: "选择类型"
+  option_values: "选择值"
+  options: 选择
+  or: 或
+  order: 订单
+  order_confirmation_note: ""
+  order_date: "订单日期"
+  order_details: "订单详情"
+  order_email_resent: "订单电子邮件重发成功"
+  order_number: Order
+  order_operation_authorize: 授权
+  order_processed_successfully: "您的订单已处理成功"
+  order_total: "订单总计"
+  order_total_message: "合计总额将计算到您的卡中"
+  order_updated: "订单已更新"
+  orders: 订单
+  out_of_stock: "缺货"
+  overview: 概述
+  paid: 已支付
+  parent_category: "上一级类别"
+  password: 密码
+  password_reset_instructions: "密码重置提示"
+  password_reset_instructions_are_mailed: "您的密码重设邮件已经发送，请检查您的电子邮件."
+  password_reset_token_not_found: "我们深感抱歉，但我们无法找到您的帐户。如果您仍有问题，尝试将您的电子邮件中此网址复制并粘贴到您的浏览器中到重新启动重置密码的过程."    
+  password_updated: "密码更新成功"  
+  path: 路径      
+  pay: 支付
+  payment: 付款
+  payment_gateway: "支付网关"
+  payment_information: "支付信息"
+  payments: 付款
+  phone: 电话
+  place_order: 订购        
+  please_create_user: "请注册一个用户帐号"     
+  powered_by: "技术支持"
+  presentation: 呈现方式
+  previous: 上一个
+  price: 价格
+  problem_authorizing_card: "信用卡授权问题"
+  problem_capturing_card: "信用卡获取问题"
+  problems_processing_order: "您的订单在处理中遇到了问题"
+  proceed_as_guest: "不 谢谢, 按访客处理"
+  process: 处理
+  product: 产品
+  product_details: "产品详细"
+  product_properties: "产品特性"
+  products: 产品
+  properties: 属性
+  property: 属性
+  prototype: 原型
+  prototypes: 原型
+  qty: 数量
+  rate: 费率
+  register: 新用户登录
+  register_or_guest: 以访客身份结帐或去注册
+  registration: 注册           
+  remember_me: "记住"
+  remove: 移除
+  reports: 报告
+  resend: 重发
+  reset_password: "重置我的密码"
+  response_code: "响应代码"  
+  resume: "恢复"
+  resumed: 已恢复
+  return: 返回
+  returned: 已返回
+  roles: 角色
+  sales_total: "销售总计"
+  sales_total_for_all_orders: "所有订单销售总计"
+  sales_totals: "销售总计"
+  sales_totals_description: "所有订单销售总计"
+  save_preferences: 保存个人设置           
+  search: 搜索
+  secure_connection_type: 安全连接类型
+  select: 选择
+  select_from_prototype: "选取产品原型"
+  select_preferred_shipping_option: "选择偏好的配送选项"
+  send_copy_of_all_mails_to: 发送所有邮件的副本给
+  send_copy_of_orders_mails_to: 发送订单邮件的副本给         
+  send_mails_as: 作为...发送邮件                    
+  send_order_mails_as: 作为...发送订单邮件   
+  ship: 配送
+  ship_address: "配送地址"
+  shipment: 配送
+  shipment_number: "配送 #"
+  shipped: 已配送
+  shipping: 配送中
+  shipping_address: "配送地址"
+  shipping_calculator: 计算器
+  shipping_categories: "配送类别"
+  shipping_categories_description: "管理配送类别，以确定该产品可通过何种方法发运"
+  shipping_cost: 成本
+  shipping_error: "配送错误"
+  shipping_method: 方法
+  shipping_methods: "配送方式"
+  shipping_methods_description: "管理配送方法"
+  shipping_total: "配送总计"
+  shop_by_taxonomy: "分类: {{taxonomy}}"
+  shopping_cart: "购物车"
+  show_deleted: "显示已删除的"
+  show_incomplete_orders: "显示未完成的订单"
+  show_only_complete_orders: "只显示完成的订单"
+  show_out_of_stock_products: "查看脱销产品"
+  sign_up: "注册"
+  site_name: "站点名称"
+  site_url: "站点URL"
+  sku: SKU
+  smtp: SMTP
+  smtp_authentication_type: SMTP认证类型         
+  smtp_domain: SMTP 域名
+  smtp_mail_host: SMTP 邮件主机                       
+  smtp_password: SMTP 密码
+  smtp_port: SMTP 端口          
+  smtp_username: SMTP 用户名  
+  spree:
+    date: 日期
+    time: 时间                                               
+  start: 开始
+  state: 国家
+  state_based: "根据国家"
+  state_setting_description: "管理国家名单/每个国家相关的省份."
+  states: 国家
+  status: 状态
+  stop: 停止
+  store: 商城
+  street_address: "街道地址"
+  street_address_2: "街道地址 (补充)"
+  subtotal: 小计
+  subtract: 减去
+  system: 系统
+  tax: 税
+  tax_categories: "税费类别"
+  tax_categories_setting_description: "设立税费类别，以确定哪些产品应纳税."
+  tax_category: "税费类别"
+  tax_total: "税合计"
+  tax_type: "税类型"
+  taxon: 分类
+  taxonomies: 各分类
+  taxonomies_setting_description: "创建并管理各分类"
+  taxons: 分类
+  thank_you_for_your_order: "感谢您的订购。请打印本确认页作为您的记录."
+  this_file_language: "English (US)"
+  to_add_variants_you_must_first_define: "要添加变量，您必须先定义"
+  total: 合计
+  tracking: 跟踪
+  transaction: 交易
+  tree: 树
+  try_again: "重试"
+  type: 类型
+  unable_ship_method: "无法生成配送方法由于一个服务器错误."
+  unable_to_authorize_credit_card: "无法授权信用卡"
+  unable_to_capture_credit_card: "无法获取信用卡"
+  unable_to_save_order: "无法保存订单"
+  update: 更新
+  update_password: "更新我的密码并登录"                    
+  updated_successfully: "更新成功"
+  use_as_shipping_address: 使用该配送地址
+  use_billing_address: 使用帐单地址
+  use_different_shipping_address: "使用另外的配送地址"
+  user: 用户
+  user_account: 用户账户
+  user_details: "用户信息"
+  users: 用户
+  value: 值
+  variants: 变量
+  version: 版本
+  website: 网站
+  weight: 重量
+  welcome_to_sample_store: "欢迎您来到样品商铺"
+  what_is_a_cvv: "什么是 (信用卡检查码) ?"
+  what_is_this: "这是什么?"
+  whats_this: "这是什么"
+  width: 宽度
+  year: "年份"
+  you_have_been_logged_out: "您已经注销."
+  your_cart_is_empty: "您的购物车是空的"
+  zip: 邮编
+  zone: 区域
+  zone_based: "根据区域"
+  zone_setting_description: "各个国家和地区使用的各种计算方法的集合."
+  zones: 区域              

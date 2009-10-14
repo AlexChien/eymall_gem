@@ -1,0 +1,17 @@
+---
+zh-CN:
+    ext_static_content_static_pages: 静态页面
+    ext_static_content_static_pages_desc: 使用所见即所得编辑器管理静态页面.
+    ext_static_content_title: 标题
+    ext_static_content_slug: 标识(Slug)
+    ext_static_content_body: 正文
+    ext_static_content_new_page: 新建页面
+    ext_static_content_editing_page: 编辑页面
+    ext_static_content_foreign_link: 外部链接 (URL)
+    ext_static_content_show_in_header: 在顶部显示
+    ext_static_content_show_in_footer: 在脚部显示
+    ext_static_content_position: 位置
+    ext_static_content_visible: 显示
+    ext_static_content_confirm_delete: 你确定要删除该页面么?
+    ext_static_content_link: 链接
+    pages: 页面

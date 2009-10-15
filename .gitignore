@@ -1,0 +1,28 @@
+tmp/*
+log/*
+.project
+.idea
+。metadata/*
+_notes/*
+_notes
+Thumbs.db
+db/*.sqlite3
+# db/schema.rb
+# user uploaded assets
+# public/images/assets
+# public/images/assets/**/*
+db/schema.rb
+
+#config/environments/production.rb
+config/database.yml
+
+public/flv/**/*.flv
+*.fla
+*.swd
+*.LCK
+_compareTemp
+.tmp_*
+*.flv
+*.headers
+*.tmp
+_vti_pvt/*
